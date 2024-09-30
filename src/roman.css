@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+  font-size:  32px;
+}
+
+.roman-button-container {
+  display: flex;
+  column-gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.roman-button {
+  width: 80px;
+  height: 80px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-table-container {
+  display: flex;
+  width: 100%;
+  column-gap: 4px;
+  padding-bottom: 8px;
+}
+
+.result-table-header {
+  width: 33%;
+  background: #ccc;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-table-row {
+  width: 33%;
+  background: #F2F5EFFF;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
