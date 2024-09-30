@@ -7,6 +7,7 @@ export const postNumber = async (nextNum: number, rNumber: string) => {
   if (numbers.has(nextNum)) {
     throw Error('Already there');
   }
+  numbers.set(nextNum, rNumber);
   return {
     status: 'ok',
   };
